@@ -18,6 +18,9 @@ public class Predecessor{
 
         //printo a saída
         System.out.println("O número antecessor ao " + number +  " é: " + (number-1));
+
+        //fecha o scanner
+        read.close();
     }
 }
 
