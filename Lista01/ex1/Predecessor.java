@@ -6,7 +6,7 @@ public class Predecessor{
    
     public static void main(String[] args) {
         //declaro as variaveis que usarei
-        int number;
+        int number, predecessor;
         
         //instancio a função de leitura
         Scanner read = new Scanner(System.in);
@@ -16,8 +16,10 @@ public class Predecessor{
         //recebo o retorno da leitura (nextInt() = o valor lido será inteiro)
         number = read.nextInt();
 
+        predecessor = number - 1;
+
         //printo a saída
-        System.out.println("O número antecessor ao " + number +  " é: " + (number-1));
+        System.out.println("O número antecessor ao " + number +  " é: " + predecessor);
 
         //fecha o scanner
         read.close();
