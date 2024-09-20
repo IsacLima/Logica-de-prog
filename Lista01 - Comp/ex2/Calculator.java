@@ -17,7 +17,8 @@ public class Calculator{
         float div = (float) number1 / number2;
 
         System.out.println("Resultados\nSoma: " + add + "\nSubtração; " + sub + "\nMultiplicação: " + mult + "\nDivisão: " + div);
- 
+
+        in.close();
     }
 
 }
