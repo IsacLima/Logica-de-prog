@@ -17,7 +17,8 @@ public class AscII{
         char capslock = (char) (charToInt - 32);
 
         System.out.println(charToInt + " " + capslock);
- 
+
+        in.close();
     }
 
 }
