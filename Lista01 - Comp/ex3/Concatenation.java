@@ -17,7 +17,8 @@ public class Concatenation{
        
 
         System.out.println("Resultados da concatenação: " + concatenation);
- 
+
+        in.close();
     }
 
 }
